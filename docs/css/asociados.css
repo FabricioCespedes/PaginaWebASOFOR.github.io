@@ -1,0 +1,40 @@
+@import url(/docs/css/footer.css);
+@import url(/docs/css/headerMovil.css);
+
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+main
+{
+    width: 100vw;
+    min-width: 320px;
+    background-color:  #fffacb;
+
+}
+
+.main_div
+{
+    background-image: url(/multimedia/imagenes/fondoBanda.jpg);
+    width: 100%;
+    text-align: center;
+}
+.div__j2
+{
+    font-size: 1.7rem;
+    color: #fffacb;
+    padding: 10px;
+    width: 90%;
+}
+.caption{
+    font-size: 1.4rem;
+    color: peru;
+    text-align: center;
+}
+.table-responsive
+{
+    width: 90%;
+    margin: auto;
+}

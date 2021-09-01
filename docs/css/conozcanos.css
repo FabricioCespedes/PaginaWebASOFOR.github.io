@@ -1,0 +1,69 @@
+@import url(/docs/css/footer.css);
+@import url(/docs/css/headerMovil.css);
+
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.main
+{
+    width: 100vw;
+    min-width: 320px;
+    background-color:  #fffacb;
+}
+.main_div
+{
+    background-image: url(/multimedia/imagenes/fondoBanda.jpg);
+    width: 100%;
+    text-align: center;
+}
+.div__j2
+{
+    font-size: 2rem;
+    color: #fffacb;
+    padding: 20px;
+}
+
+.article__p
+{
+    text-align: center;
+    margin-bottom: 0%;
+    width: 80%;
+    margin: auto;
+    -webkit-animation: border 7s forwards;
+    animation: border 7s forwards;
+    *-webkit-animation-play-state: paused;
+    *animation-play-state: paused;
+}
+@-webkit-keyframes border {
+    from {border-bottom: solid #fffacb; }
+    to { border-bottom: solid #704f38;}
+}
+@keyframes border {
+    from {border-bottom: solid #fffacb; }
+    to { border-bottom: solid #704f38;}
+}
+.article__h3
+{  
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 1rem;   
+}
+
+.section__article
+{
+    padding: 2%;
+}
+
+@media (min-width:750px) {
+    .section__h3
+    {
+        font-size: 1.5rem;
+    }
+    .article__p
+    {
+        font-size: 1rem;
+    }
+}

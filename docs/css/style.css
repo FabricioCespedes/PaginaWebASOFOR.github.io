@@ -1,0 +1,83 @@
+@import url(/docs/css/footer.css);
+@import url(/docs/css/headerMovil.css);
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.body
+{
+    min-width: 320px;
+    width: 100vw;
+}
+
+.carousel
+{
+    background-color:  #fffacb;
+}
+.w-100
+{
+    border-radius: 40px;
+}
+.carousel-caption
+{
+    background-color:  #fffacb;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.section__img
+{
+    width: 50px;
+    height: 51px;
+}
+.section__h2
+{   
+    color:black;
+    font-size: 0.7rem;
+    width: 100%;
+  
+}
+.article__h3
+{
+    color: black;
+    font-size: 0.7rem;
+}
+.article__p
+{
+    color: black;
+    font-size: 0.6rem;
+}
+.div__h3
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+@media (min-width:750px) {
+    .section__h2
+    {
+        font-size: 1.5rem;
+    }
+    .section__img
+    {
+        width: 100px;
+        height: 101px;
+    }
+    .article__h3
+    {
+        font-size: 1.2rem;
+    }
+    .article__p
+    {
+        font-size: 1rem;
+    }
+}
+@media (min-width:900px) {
+    .carousel-caption
+    {
+        background-color:  #fffacb;
+        border-radius: 40px;
+        margin-bottom: 10%;
+    }
+}
